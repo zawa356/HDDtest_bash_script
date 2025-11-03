@@ -10,7 +10,7 @@
 
 ## 🧭 概要
 
-**注意このREADMEはChatGPTに書いてもらっています。
+**注意このREADMEやscriptはChatGPTに書いてもらっています。
 内容について一切の保証をしませんのでご注意ください。**
 
 本リポジトリは、SATA/SAS ドライブの受け入れ検査（Burn-in / Acceptance Test）を **対話UI（whiptail）** で安全に実行・記録する Bash スクリプト **`hddtest.sh`** を提供します。  
