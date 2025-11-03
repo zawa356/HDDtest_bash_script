@@ -545,7 +545,7 @@ do_badblocks_parallel(){
     return $rc
   }
   export -f run_bb
-  printf "%s\0" "${TARGETS[@" ]}" | xargs -0 -I{} -P"${BB_PARALLEL}" bash -c 'run_bb "$@"' _ {}
+  printf "%s\0" "${TARGETS[@]}" | xargs -0 -I{} -P"${BB_PARALLEL}" bash -c 'run_bb "$@"' _ {}
 }
 
 do_long_all(){
