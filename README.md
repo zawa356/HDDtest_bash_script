@@ -1,5 +1,3 @@
-# HDDtest_bash_script
-
 # HDD/SAS Acceptance Test (hddtest.sh)
 
 **バージョン:** v1.14  
